@@ -12,7 +12,7 @@ const About = () => {
             saya adalah seorang programmer. saya belajar sejak tahun 2015. pertama kali saya belajar mengenal php Mysql dan saya juga megembangkan diri saya untuk belajar javascript dan Nodejs. saat ini saya mimiliki pegalaman pembuatan beberapa sistem website.</p>
         </div>
         <div>
-          <Image className='rounded-xl' src='/assets/laptop.jpg' alt='gambar laptop' width={'500px'} height={'400px'} />
+          <Image className='rounded-xl' src='/assets/muhammadnurwibawanto.jpg' alt='Muhammad Nurwibawnato' width={'500px'} height={'400px'} />
         </div>
       </div>
 

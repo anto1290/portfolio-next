@@ -1,7 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-import propertyImg from '../public/assets/projects/property.jpg'
+import posImg from '../public/assets/projects/pos1.png'
 import cbtImg from '../public/assets/projects/cbt.jpg'
 import ProjectItem from './ProjectItem'
 const Projects = () => {
@@ -12,10 +10,10 @@ const Projects = () => {
         <h2 className='py-4'>What i've build</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Proprty Finder'
+            title='Point Of Sales'
             description='React Js'
-            backgroundImg={propertyImg}
-            urlGit='https://github.com/anto1290/cbt'
+            backgroundImg={posImg}
+            urlGit='https://github.com/anto1290/backend-pos'
             url='/property'
           />
           <ProjectItem
